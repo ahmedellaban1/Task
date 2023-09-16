@@ -73,8 +73,10 @@ AutoDetect() take 3 parameters money , from_, to
 
     def DollarToEgyptPound(self, money):
         return f"{money * 30.9} LE"
+    
     def EgyptPoundToDollar(self, money):
         return f"{money / 30.9} $"
+    
     def AutoDetect(self, money ,from_,to ):
         if from_ == '$' and to == 'LE':
             return self.DollarToEgyptPound(money)
