@@ -99,11 +99,10 @@ print(functional_programming_5)
 # print(Names.clear()) 
 
 # task 7
-a, *b ,c = Names
+a, *b = Names
 print(f"""
 a = {a}
 b = {b}
-c = {c}
 """)
 
 # task 8
